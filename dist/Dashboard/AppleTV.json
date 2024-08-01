@@ -7,7 +7,7 @@
             "endpoints": [
                 {
                     "id": "weather-source",
-                    "url": "https://api.openweathermap.org/data/2.5/weather?q=Canberra&appid=YOUR_API_KEY&units=metric"
+                    "url": "https://api.openweathermap.org/data/2.5/weather?q=Canberra&appid=2fde93bc95ff46e716ff4a0efe64d57d&units=metric"
                 }
             ]
         }
@@ -18,7 +18,7 @@
             "color": "active",
             "source": {
                 "endpoint": "weather-source",
-                "refresh": 600
+                "refresh": 1800
             },
             "widgets": [
                 {
